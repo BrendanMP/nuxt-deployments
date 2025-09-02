@@ -17,6 +17,7 @@
     "@nuxt/fonts": "^0.11.4",
     "@nuxt/icon": "^2.0.0",
     "@nuxt/image": "^1.11.0",
+    "@tailwindcss/typography": "^0.5.16",
     "@tailwindcss/vite": "^4.1.12",
     "daisyui": "^5.1.5",
     "eslint": "^9.34.0",
@@ -26,7 +27,6 @@
     "vue-router": "^4.5.1"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^5.2.1",
-    "@tailwindcss/typography": "^0.5.16"
+    "@antfu/eslint-config": "^5.2.1"
   }
 }

@@ -11,6 +11,12 @@ export default defineNuxtConfig({
   ],
   devtools: { enabled: true },
   css: ['~/assets/app.css'],
+  content: {
+    database: {
+      type: 'd1',
+      bindingName: 'nuxt_content_deployments',
+    },
+  },
   future: {
     compatibilityVersion: 4,
   },
